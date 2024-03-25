@@ -1,0 +1,30 @@
+.teamBlock{
+    min-height: 100vh;
+    position: relative;
+    background-color: yellow;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    }
+    .teamHeader{
+        display: flex;
+        align-self: center;
+        }
+    .teamList{
+        position: relative;
+        background-color: brown;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+.teamCard{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+    width: 22vw;
+    position: relative;
+    background-color: blueviolet;
+    border-color: black;
+}
