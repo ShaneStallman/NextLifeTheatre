@@ -1,0 +1,10 @@
+.aboutBlock{
+    min-height: 100vh;
+    position: relative;
+    background-color: aqua;
+    margin-top: 5vh;
+    justify-content: center;
+}
+.aboutHead{
+    justify-self: center;
+}

@@ -1,0 +1,10 @@
+.mainImg{
+    margin-top: 5vh;
+    min-height: 100vh;
+    position: relative;
+    background-image: "next life(logo_only).png";
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}

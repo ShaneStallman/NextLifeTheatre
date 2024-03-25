@@ -57,11 +57,6 @@
   position: relative;
   background-color: gray;
 }
-.aboutBlock{
-min-height: 100vh;
-position: relative;
-background-color: aqua;
-}
 .teamBlock{
 min-height: 100vh;
 position: relative;

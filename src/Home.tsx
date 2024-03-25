@@ -2,13 +2,14 @@
 import React, { useState } from "react";
 import {pageNavigation} from "./types";
 import "./App.css"
+import "./Home.css"
 const Home = () => {
 
   return (
     <div>
         <div className="mainBody" id="home">
             <div className="mainImg">
-            <img title="logo" src = "./next life(logo_only).png"></img>
+              <img src="nextlife.png" alt="Description of the image"></img>
             </div>
         </div>
        <footer className="pageFooter">

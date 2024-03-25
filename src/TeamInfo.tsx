@@ -29,4 +29,13 @@ const Bethany: teamMember = {
 
 teamInfo.push(Bethany);
 
+const Gretchen: teamMember = {
+    name: "Gretchen D'Amato",
+    headshot: "",
+    bio: "Gretchen D’Amato is a stage manager and scenic artist based in Connecticut. Recent stage management credits include A View From the Bridge (Long Wharf Theater, ASM/Deck Sub), …even in another time (Muhlenberg Theatre+Dance, PSM), Tick, Tick… BOOM!  (Muhlenberg Theatre Association, SM), and Too Much Light… (LATI at Edinburgh Fringe, SM). Gretchen currently works as Front of House Manager at both the Bushnell Performing Arts Center in Hartford, CT and the Shubert Theater in New Haven, CT. Gretchen became a certified COVID Safety Officer in 2022, serving that role for the Hartford Stage Company's production of Kiss my Aztec. They are a graduate of Muhlenberg College with a B.A. in Theatre with a concentration in stage management.",
+    socials: "gretchen.damato"
+}
+
+teamInfo.push(Gretchen);
+
 export {teamInfo};

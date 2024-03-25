@@ -1,6 +1,8 @@
 
 import React, { useState } from "react";
 import {pageNavigation} from "./types";
+import "./App.css";
+import "./About.css"
 
 const About = () => {
 
@@ -8,7 +10,8 @@ const About = () => {
   return (
     <div>
       <div className="aboutBlock" id="about">
-
+        <h1 className = "aboutHead">Who We Are</h1>
+        <p></p>
       </div>
        <footer className="pageFooter">
             <a href="#home" className="w3-button w3-light-grey"><i className="fa fa-arrow-up w3-margin-right"></i>To the top</a>
