@@ -8,7 +8,7 @@ const Home = () => {
     <div>
         <div className="mainBody" id="home">
             <div className="mainImg">
-          
+            <img title="logo" src = "./next life(logo_only).png"></img>
             </div>
         </div>
        <footer className="pageFooter">
