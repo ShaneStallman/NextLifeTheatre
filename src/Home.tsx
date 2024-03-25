@@ -1,63 +1,14 @@
 
 import React, { useState } from "react";
 import {pageNavigation} from "./types";
-
-const Home: React.FC<pageNavigation> = ({setPage}) => {
+import "./App.css"
+const Home = () => {
 
   return (
     <div>
-        <div className="nav-banner">
-            <div className="navBar" id="myNavbar">
-              <a onClick={() => setPage("home")} className="w3-bar-item w3-button w3-wide">Next Life Theatre Co.</a>
-              <div className="w3-right w3-hide-small">
-                <a onClick={() => setPage("work")} className="w3-bar-item w3-button"><i className="fa fa-th icon"></i> WORK</a>
-                <a onClick={() => setPage("about")}className="w3-bar-item w3-button">ABOUT</a>
-                <a onClick={() => setPage("team")} className="w3-bar-item w3-button"><i className="fa fa-user icon"></i> Meet Us</a>              
-                <a onClick={() => setPage("support")} className="w3-bar-item w3-button"><i className="fa fa-usd icon"></i> Support Us</a>
-              </div>
-            </div>
-        </div>
         <div className="mainBody" id="home">
             <div className="mainImg">
           
-            </div>
-            <div className="workBlock" id="work">
-
-            </div>
-            <div className="aboutBlock" id="about">
-
-            </div>
-            <div className="teamBlock" id="team">
-              <h1 className="teamHeader"> Meet the Team</h1>
-              <div className="teamList">
-                
-                <div className="teamInfo">
-
-                </div>
-                <div className="teamInfo">
-
-                </div>
-                <div className="teamInfo">
-
-                </div>
-                <div className="teamInfo">
-
-                </div>
-              </div>
-            </div>
-            <div className="supportBlock" id="support">
-              <h1 className="supportHeader"> Want to Support Us? </h1>
-              <div className="supportDiv">
-                <div className="supportInfo">
-                <h3 className="donateHeader supportInfoHeader"> Donate! </h3>
-                </div>
-                <div className="supportInfo">
-                <h3 className="followHeader supportInfoHeader"> Follow Us! </h3>
-                </div>
-              </div>
-            </div>
-            <div className="contactBlock" id="contact">
-
             </div>
         </div>
        <footer className="pageFooter">
