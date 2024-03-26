@@ -17,10 +17,16 @@ const buildDisplay = (teamArray) => {
 
       col.push(
         <div key={index} className="teamCard" onClick={() => console.log(teamArray[index])}>
-          <div className="cardName">{teamArray[index].name}</div>
-          <img className="cardImg" src={teamArray[index].headshot} alt={teamArray[index].name} />
-          <div className="cardBio">{teamArray[index].bio}</div>
-          <Link to={`https://www.instagram.com/${teamArray[index].socials}/`}>@{teamInfo[index].socials}</Link>
+          <div className="cardImgContainer">
+            <img className="cardImg" src={teamArray[index].headshot} alt={teamArray[index].name}/>
+            <div className="cardOverlay">
+              <div className="cardName">{teamArray[index].name}</div>
+              <div className="cardBio">{teamArray[index].bio}</div>
+              <a href={`https://www.instagram.com/${teamArray[index].socials}/`} target="_blank" rel="noopener noreferrer">
+                <i id="Instagram" className="fa fa-instagram w3-hover-opacity icon"></i> Instagram: @{teamArray[index].socials}
+              </a>
+            </div>
+          </div>
         </div>
       );
     }
@@ -38,10 +44,12 @@ const Team = () => {
   return (
     <div>
       {buildDisplay(teamInfo)}
+      <h3 className="joinHeader"> You Can Join Us Too! </h3>
       <footer className="pageFooter">
         <a href="#home" className="w3-button w3-light-grey">
           <i className="fa fa-arrow-up w3-margin-right"></i>To the top
         </a>
+        
         <div className="w3-xlarge w3-section">
           <i id="Facebook" className="fa fa-facebook-official w3-hover-opacity icon"></i>
           <i id="Instagram" className="fa fa-instagram w3-hover-opacity icon"></i>

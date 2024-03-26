@@ -7,7 +7,7 @@ const Navbar = () => {
             <Nav>
                 <NavMenu>
                     <NavLink to="/home" activeStyle>
-                        Next Life Theatre Co.
+                        <img src = "next life(logo_only).png" style = {{width: 60, height: 30}}/> Next Life Theatre Co.
                     </NavLink>
                     <NavLink to="/about" activeStyle>
                         About

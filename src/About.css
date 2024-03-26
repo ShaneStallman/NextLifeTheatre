@@ -1,10 +1,19 @@
 .aboutBlock{
     min-height: 100vh;
     position: relative;
-    background-color: aqua;
-    margin-top: 5vh;
+    margin-top: 8vh;
     justify-content: center;
 }
 .aboutHead{
-    justify-self: center;
+    text-align: center;
+    font-size: 60px;
+}
+.missionHead{
+    text-align: center;
+    font-size: 50px;
+}
+
+.aboutPar{
+    text-align: center;
+    margin:5vw;
 }
