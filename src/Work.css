@@ -1,0 +1,13 @@
+.videoIntro{
+    margin-top: 60px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 90vw;
+    height: 90vh;
+    border-color: black;
+}
+.workBlock{
+    min-height: 100vh;
+    position: relative;
+    
+  }

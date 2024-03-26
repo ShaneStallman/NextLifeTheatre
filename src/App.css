@@ -52,11 +52,6 @@
   min-height: 100vh;
   position: relative;
 }
-.workBlock{
-  min-height: 100vh;
-  position: relative;
-  background-color: gray;
-}
 .teamBlock{
 min-height: 100vh;
 position: relative;
@@ -87,46 +82,7 @@ position: relative;
 background-color: blueviolet;
 border-color: black;
 }
-.supportBlock{
-min-height: 100vh;
-position: relative;
-background-color: green;
-justify-content: center;
-display: flex;
-flex-direction: column;
-}
-.contactBlock{
-min-height: 100vh;
-position: relative;
-background-color: pink;
-}
-.supportDiv{
-position: relative;
-background-color: orange;
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-}
-.supportHeader{
-display: flex;
-align-self: center;
-}
-.supportInfoHeader{
-display: flex;
-align-self: center;
-}
-.supportInfo{
-margin-left: auto;
-margin-right: auto;
-height: 60vh;
-width: 45vw;
-position: relative;
-background-color: blue;
-border-color: black;
-justify-content: center;
-display: flex;
-flex-direction: column;
-}
+
 .pageFooter{
   background-color: #120b1a;
   height: flex;
