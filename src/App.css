@@ -83,12 +83,3 @@ background-color: blueviolet;
 border-color: black;
 }
 
-.pageFooter{
-  background-color: #120b1a;
-  height: flex;
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-  position: relative;
-}

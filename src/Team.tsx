@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 //import {pageNavigation} from "./types";
 import { teamInfo } from "./TeamInfo.tsx";
-import { buildFooter } from "./Footer.tsx";
+import { buildFooter } from "./components/Footer.tsx";
 import "./Team.css";
 
 const buildDisplay = (teamArray) => {

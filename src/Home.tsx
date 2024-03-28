@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import {pageNavigation} from "./types";
-import { buildFooter } from "./Footer.tsx";
+import { buildFooter } from "./components/Footer.tsx";
 import "./App.css"
 import "./Home.css"
 const Home = () => {

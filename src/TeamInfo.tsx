@@ -38,4 +38,6 @@ const Gretchen: teamMember = {
 
 teamInfo.push(Gretchen);
 
-export {teamInfo};
+let contactInfo = {email: "nextlifetheatre@gmail.com", phone: "(999)999-9999", mailing: {name: "Next Life Theatre Co.", city: "Philidelphia", state: "PA", zip: "99999", address: "101 Main St.", poBox: "PO Box 999"}}
+
+export {contactInfo, teamInfo};
