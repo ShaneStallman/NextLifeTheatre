@@ -46,7 +46,9 @@ const footer = buildFooter();
   return (
     <div>
       {buildDisplay(teamInfo)}
-      <h3 className="joinHeader"> You Can Join Us Too! </h3>
+      <div className="joinUsDiv">
+        <Link to="/join" className="joinHeader"> You Can Join Us Too! </Link>
+      </div>
       {footer}
     </div>
   );

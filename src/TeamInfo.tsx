@@ -1,6 +1,8 @@
-import { teamMember } from "./types";
+import { jobPost, teamMember } from "./types";
 
 let teamInfo: teamMember[] = [];
+
+let jobList: jobPost[] = [];
 
 const Brayden: teamMember = {
     name: "Brayden Stallman",
@@ -40,4 +42,13 @@ teamInfo.push(Gretchen);
 
 let contactInfo = {email: "nextlifetheatre@gmail.com", phone: "(999)999-9999", mailing: {name: "Next Life Theatre Co.", city: "Philidelphia", state: "PA", zip: "99999", address: "101 Main St.", poBox: "PO Box 999"}}
 
-export {contactInfo, teamInfo};
+const Dancer: jobPost = {
+    name: "Dancer",
+    image: "",
+    description: "",
+    form: "https://forms.gle/8pkhq3LJKRaaX7fTA"
+}
+
+jobList.push(Dancer);
+
+export {contactInfo, teamInfo, jobList};

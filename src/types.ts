@@ -8,3 +8,10 @@ export type teamMember = {
     bio: string;
     socials: string;
 };
+
+export type jobPost = {
+  name: string;
+  image: string;
+  description: string;
+  form: string;
+};

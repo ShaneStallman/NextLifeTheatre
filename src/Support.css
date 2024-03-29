@@ -12,14 +12,14 @@
     }
     .supportDiv{
     position: relative;
-    background-color: orange;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     }
     .supportHeader{
     display: flex;
     align-self: center;
+    margin-top: 8vh;
     }
     .supportInfoHeader{
     display: flex;
@@ -28,12 +28,49 @@
     .supportInfo{
     margin-left: auto;
     margin-right: auto;
-    height: 60vh;
-    width: 45vw;
+    height: flex;
+    width: flex;
     position: relative;
-    background-color: blue;
-    border-color: black;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    }
+    .tierHeader{
+        display: flex;
+        align-self: center;
+        text-align: center;
+    }
+    .tiers{
+        width: 35vw;
+        height: 45vh;
+        align-self: center;
+    }
+    .donationTiers{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .tierInfo{
+        width: 35vw;
+        height: 25vh;
+        align-self: center;
+        justify-content: center;
+        background-color: black;
+        margin-bottom: 4vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .tierLabel{
+        font-style: oblique;
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+        justify-self: center;
+        align-self: center;
+    }
+    .top{
+        margin: 3vw;
+      }
+    .bottom{
+        margin: 3vw;
     }
