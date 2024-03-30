@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {pageNavigation} from "./types";
 import { buildFooter } from "./components/Footer.tsx";
 import "./Support.css"
@@ -12,10 +12,13 @@ const footer = buildFooter();
               <div className="supportDiv">
                 <div className="supportInfo">
                 <h2 className="donateHeader supportInfoHeader"> Donate! </h2>
-                <i>Donate on Indegogo</i>
-                <i>What will your donation provide?</i>
-                <p>Next Life Theatre is currently seeking $3,000 to help fund this project.
-
+                <i>Where?</i>
+                <a href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death#/">Donate on Indiegogo<br/></a>
+                
+                <p>What will your donation provide?<br/>
+                <br/>
+                Next Life Theatre is currently seeking $3,000 to help fund this project.
+                  <br/>
                   Funds will contribute to the following:
                 </p>
                 <ul>
@@ -24,6 +27,7 @@ const footer = buildFooter();
                   <li>Stipends for dancers and designers</li>
                   <li>Administrative costs</li>
                 </ul>
+                <p>We accept donations of any amount, but we also offer benefits for tiered donations you can check out below!</p>
                 <h2 className="tierHeader">Tiered Donations</h2>
                 <div className="donationTiers">
                 <div className="top">

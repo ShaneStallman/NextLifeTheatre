@@ -1,11 +1,10 @@
 .homeBody{
     display: flex;
     flex-direction: column;
-    height: auto;
+    height: fit-content;
     width: 99vw;
     align-items: center;
     margin-top: 10vh;
-    margin-bottom: 5vh;
 }
 .fa {
     margin: 4px;

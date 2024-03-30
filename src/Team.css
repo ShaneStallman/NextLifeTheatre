@@ -1,7 +1,6 @@
 .teamBlock{
     min-height: 100vh;
     position: relative;
-    background-color: yellow;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -12,7 +11,6 @@
         }
     .teamList{
         position: relative;
-        background-color: rgba(38, 38, 38, 1);
         display: flex;
         justify-content: space-between;
         flex-direction: row;

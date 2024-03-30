@@ -7,7 +7,7 @@ const footer = buildFooter();
   return (
     <div>
       <div className="homeBody">
-        <img src="nextlife.png"/>
+        <img src="nextlife_cropped.png"/>
         <Slideshow/>
         <div className="elfsight-app-75812dd3-42e0-4241-9764-7863e47eddcd instagram" data-elfsight-app-lazy></div>
         {footer}

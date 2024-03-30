@@ -1,7 +1,6 @@
 .joinBlock{
     min-height: 100vh;
     position: relative;
-    background-color: pink;
     }
     .jobCard {
         border-radius: 20px;

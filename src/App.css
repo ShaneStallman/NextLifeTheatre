@@ -21,7 +21,7 @@
 :root {
   --banner-height: 64px;
   color: white;
-  background-image: url('../public/nextlife.png');
+  background-image: url('../public/lines_back.jpg');
   background-color: rgba(38, 38, 38, 1);
 }
 
@@ -44,7 +44,6 @@
 .teamBlock{
 min-height: 100vh;
 position: relative;
-background-color: yellow;
 justify-content: center;
 display: flex;
 flex-direction: column;
@@ -53,13 +52,7 @@ flex-direction: column;
 display: flex;
 align-self: center;
 }
-.teamList{
-position: relative;
-background-color: brown;
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-}
+
 .teamInfo{
 margin-top: 10vh;
 margin-bottom: 10vh;

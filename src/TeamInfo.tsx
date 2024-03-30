@@ -8,16 +8,16 @@ let pictureArray: picture[] = [];
 
 const Test: picture = {
     src: "Vampire.png",
-    alt: "test",
-    caption: "test"
+    alt: "Carmilla",
+    caption: "Learn more about our upcoming show!"
 };
 
 pictureArray.push(Test);
 
 const Test2: picture = {
     src: "VampireRoyalty.png",
-    alt: "test",
-    caption: "test"
+    alt: "donations",
+    caption: "Donate now to get exclusive swag!"
 };
 
 pictureArray.push(Test2);
