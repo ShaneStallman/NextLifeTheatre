@@ -20,5 +20,6 @@ export type picture = {
   src: string;
   alt: string;
   caption: string;
+  link: string;
 };
 

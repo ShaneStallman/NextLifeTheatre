@@ -44,6 +44,9 @@
         height: 45vh;
         align-self: center;
     }
+    .tiers:hover{
+        box-shadow: 0px 0px 12px rgb(196, 59, 196);
+    }
     .donationTiers{
         display: flex;
         flex-direction: row;

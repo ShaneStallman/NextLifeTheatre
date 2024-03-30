@@ -44,10 +44,11 @@ const buildDisplay = (teamArray) => {
 const Team = () => {
 const footer = buildFooter();
   return (
-    <div>
+    <div className="teamBlock">
+      <h1 className="teamHeader">Meet the Team</h1>
       {buildDisplay(teamInfo)}
       <div className="joinUsDiv">
-        <Link to="/join" className="joinHeader"> You Can Join Us Too! </Link>
+        <Link onClick={() => window.scrollTo(0, 0)} to="/join" className="joinHeader"> You Can Join Us Too! </Link>
       </div>
       {footer}
     </div>

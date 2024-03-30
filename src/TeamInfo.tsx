@@ -7,9 +7,10 @@ let jobList: jobPost[] = [];
 let pictureArray: picture[] = [];
 
 const Test: picture = {
-    src: "Vampire.png",
+    src: "carmilla.png",
     alt: "Carmilla",
-    caption: "Learn more about our upcoming show!"
+    caption: "Learn more about our upcoming show!",
+    link: "/work"
 };
 
 pictureArray.push(Test);
@@ -17,7 +18,8 @@ pictureArray.push(Test);
 const Test2: picture = {
     src: "VampireRoyalty.png",
     alt: "donations",
-    caption: "Donate now to get exclusive swag!"
+    caption: "Donate now to get exclusive swag!",
+    link: "/support"
 };
 
 pictureArray.push(Test2);

@@ -1,9 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
+import { Link } from "react-router-dom";
 import { pictureArray } from "../TeamInfo.tsx";
 import "./slideshow.css";
 
 const Slideshow = () => {
   const [slideIndex, setSlideIndex] = useState(0);
+
+  const nextSlide = () => {
+    setSlideIndex((prevIndex) =>
+      prevIndex === pictureArray.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  useEffect(() => {
+    // Set up timer to switch slides every 3 seconds (adjust as needed)
+    const interval = setInterval(nextSlide, 5000);
+
+    // Clean up function to clear interval when component unmounts
+    return () => clearInterval(interval);
+    }, []);
 
   const plusSlides = (n) => {
     showSlides(slideIndex + n);
@@ -33,7 +48,9 @@ const Slideshow = () => {
           <div className="numbertext">
             {index + 1} / {pictureArray.length}
           </div>
-          <img src={picture.src} alt={picture.alt} style={{ width: "100%" }} />
+          <Link to="/home">
+            <img className="slideImage" src={picture.src} alt={picture.alt} style={{ width: "100%" }} />
+          </Link>
           <div className="text">{picture.caption}</div>
         </div>
       ))}

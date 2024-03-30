@@ -42,13 +42,16 @@ const footer = buildFooter();
   return (
     <div>
         <div className="joinBlock" id="join">
-            <h1 className="joinHeader"> Want to be a Part of Our Team? </h1>
+          <h1 className="joinHeader">Want to Join our Team?</h1>
             <div className="joinDiv">
-              <h1>Want to Join our Team?</h1>
-              <h2>We are looking for:</h2>
-              <div className="jobEntries">
-              {buildDisplay(jobList)}
-              </div>
+              <p className="joinIntro">As we are a newly formed theatre group, we are looking for enthusiastic team members to work with us to 
+                 build and grow our company with. We ideally want future focused, spirited and driven individuals
+                 who will help us kick start this company and we look forward to hearing from you!
+              </p>
+              <h2 className="jobHeader">We are looking for:</h2>
+            </div>
+            <div className="jobEntries">
+                {buildDisplay(jobList)}
             </div>
         </div>
        {footer}

@@ -21,7 +21,7 @@ const buildFooter = () => {
                   <a className="fa fa-twitter w3-hover-opacity icon"></a>
                   <a className="fa fa-linkedin w3-hover-opacity icon"></a>
                 </div>
-                <p className="selfLink">Developed by <a href="https://shanestallman.mystagingwebsite.com/" title="shane_stallman" target="_blank" className="selfLink">Shane Stallman</a></p>
+                <p className="selfLink">Developed by <a href="https://github.com/ShaneStallman" title="shane_stallman" target="_blank" className="selfLink"><i className="selfLink fa fa-github icon"></i>Shane Stallman</a></p>
               </div>
             <div className="contactInfo">
               <a href={`mailto:${contactInfo.email}`} className="fa fa-envelope icon">&nbsp;{contactInfo.email}</a>
