@@ -27,14 +27,18 @@ const footer = buildFooter();
                 <h2 className="tierHeader">Tiered Donations</h2>
                 <div className="donationTiers">
                 <div className="top">
-                <img className="tiers" alt="apprentice" src="Apprentice.png"/>
+                  <a href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death/payments/new#/review">
+                    <img className="tiers" alt="apprentice" src="Apprentice.png"/>
+                  </a>
                 <div className="tierInfo">
                 <i className="tierLabel">Tier 1: 25$</i>
                 <ul>
                   <li>A Commemorative "Electric Chapel" Nightclub Wristband</li>
                 </ul>
                 </div>
-                <img className="tiers" alt="vampire" src="Vampire.png"/>
+                  <a href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death/payments/new#/review">
+                    <img className="tiers" alt="vampire" src="Vampire.png"/>
+                  </a>
                 <div className="tierInfo">
                 <i className="tierLabel">Tier 3: 100$</i>
                 <ul>
@@ -44,7 +48,9 @@ const footer = buildFooter();
                 </div>
                 </div>
                 <div className="bottom">
-                <img className="tiers" alt="fledgling" src="Fledgling.png"/>
+                <a href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death/payments/new#/review">
+                  <img className="tiers" alt="fledgling" src="Fledgling.png"/>
+                </a>
                 <div className="tierInfo">
                 <i className="tierLabel">Tier 2: 50$</i>
                 <ul>
@@ -52,7 +58,9 @@ const footer = buildFooter();
                   <li>A Commemorative "Electric Chapel" Nightclub Wristband</li>
                 </ul>
                 </div>
-                <img className="tiers" alt="vampireRoyalty" src="VampireRoyalty.png"/>
+                  <a href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death/payments/new#/review">
+                    <img className="tiers" alt="vampireRoyalty" src="VampireRoyalty.png"/>
+                  </a>
                 <div className="tierInfo">
                 <i className="tierLabel">Tier 4: 250$</i>
                 <ul>

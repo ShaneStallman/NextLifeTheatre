@@ -15,3 +15,10 @@ export type jobPost = {
   description: string;
   form: string;
 };
+
+export type picture = {
+  src: string;
+  alt: string;
+  caption: string;
+};
+

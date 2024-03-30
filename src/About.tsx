@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import {pageNavigation} from "./types";
 import { buildFooter } from "./components/Footer.tsx";
+import Slideshow from "./components/slideshow.tsx";
 import "./App.css";
 import "./About.css"
 
@@ -18,6 +19,7 @@ With Carmilla, Next Life is seeking to tell an old story that frames queerness a
 
 The existence of queerness is political and in this story the politics and safety of queerness is addressed, celebrated, and looks forward at what new spaces we may develop as a community going forwards.
         </p>
+        <Slideshow/>
       </div>
        {footer} 
         </div>  

@@ -1,8 +1,26 @@
-import { jobPost, teamMember } from "./types";
+import { jobPost, teamMember, picture } from "./types";
 
 let teamInfo: teamMember[] = [];
 
 let jobList: jobPost[] = [];
+
+let pictureArray: picture[] = [];
+
+const Test: picture = {
+    src: "Vampire.png",
+    alt: "test",
+    caption: "test"
+};
+
+pictureArray.push(Test);
+
+const Test2: picture = {
+    src: "VampireRoyalty.png",
+    alt: "test",
+    caption: "test"
+};
+
+pictureArray.push(Test2);
 
 const Brayden: teamMember = {
     name: "Brayden Stallman",
@@ -51,4 +69,4 @@ const Dancer: jobPost = {
 
 jobList.push(Dancer);
 
-export {contactInfo, teamInfo, jobList};
+export {contactInfo, teamInfo, jobList, pictureArray};
