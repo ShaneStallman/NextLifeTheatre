@@ -1,4 +1,9 @@
 .scrolled {
-    background-color: #120b1a;
+    background: linear-gradient(to right, #120b1a 0%, #120b1a 90.5%, rgb(204, 46, 191) 90.5%, rgb(204, 46, 191) 100%);
     box-shadow: 0px 2px 10px black;
+  }
+  .important{
+    background-color: rgb(204, 46, 191);
+    justify-self: right;
+    width: fit-content;
   }

@@ -13,9 +13,12 @@
         height: 95vh;
         width: 30vw;
         position: relative;
-        background-color: rgba(20,0,30,1);
+        background-color: #120b1a;
         /*overflow: hidden;*/ /* Ensure the border-radius applies correctly */
-        box-shadow: 0px 0px 12px rgb(196, 59, 196);
+        
+      }
+      .jobCard:hover{
+        box-shadow: 0px 0px 12px rgb(56, 7, 81);
       }
       
       .cardImgContainer {
@@ -86,4 +89,7 @@
         flex-direction: column;
         background-color: rgba(0,0,0,0.7);
         width: 60vw;
+      }
+      .formLink{
+        font-size: 20px;
       }

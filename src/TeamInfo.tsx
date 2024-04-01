@@ -1,4 +1,4 @@
-import { jobPost, teamMember, picture } from "./types";
+import { jobPost, teamMember, picture, show } from "./types";
 
 let teamInfo: teamMember[] = [];
 
@@ -64,11 +64,21 @@ let contactInfo = {email: "nextlifetheatre@gmail.com", phone: "(999)999-9999", m
 
 const Dancer: jobPost = {
     name: "Dancer",
-    image: "",
-    description: "",
+    image: "Dancers.png",
+    description: "Dance the Night away as a Dancer for the Fringe Festival show Carmilla",
     form: "https://forms.gle/8pkhq3LJKRaaX7fTA"
 }
 
 jobList.push(Dancer);
 
-export {contactInfo, teamInfo, jobList, pictureArray};
+const carmilla: show = {
+  name: "Carmilla",
+  director: "Brayden Stallman",
+  choreo: "Amélie Parczany",
+  inspiration: "Carmilla by Joseph Sheridan le Fanu",
+  image: "carmilla.png",
+  location: "Philidephia Fringe Festival",
+  date: "Date TBD",
+}
+
+export {contactInfo, teamInfo, jobList, pictureArray, carmilla};

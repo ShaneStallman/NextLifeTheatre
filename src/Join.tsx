@@ -21,7 +21,7 @@ const buildDisplay = (jobArray) => {
             <div className="cardOverlay">
               <div className="jobName">{jobArray[index].name}</div>
               <div className="jobDescription">{jobArray[index].description}</div>
-              <a href={`${jobArray[index].form}`} target="_blank" rel="noopener noreferrer">Apply Here</a>
+              <a className="formLink" href={`${jobArray[index].form}`} target="_blank" rel="noopener noreferrer">Apply Here</a>
             </div>
           </div>
         </div>

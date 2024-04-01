@@ -23,3 +23,12 @@ export type picture = {
   link: string;
 };
 
+export type show = {
+  name: string;
+  director: string;
+  choreo: string;
+  inspiration: string;
+  image: string;
+  location: string;
+  date: string;
+}

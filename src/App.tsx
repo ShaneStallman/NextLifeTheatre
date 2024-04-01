@@ -12,6 +12,7 @@ import Team from "../src/Team.tsx";
 import Work from "../src/Work.tsx";
 import Support from "../src/Support.tsx";
 import Join from "../src/Join.tsx";
+import Policy from "./Privacy.tsx";
  
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                 <Route path="/team" element={<Team />} />
                 <Route path="/support" element={<Support />} />
                 <Route path="/join" element={<Join />} />
+                <Route path="/privacy_policy" element={<Policy/>}/>
                 <Route path="*" element={<Navigate to="/home" replace />} />
             </Routes>
         </Router>

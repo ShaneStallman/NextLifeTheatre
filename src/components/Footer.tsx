@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { contactInfo } from "../TeamInfo.tsx";
 import "./Footer.css";
 
@@ -21,7 +22,9 @@ const buildFooter = () => {
                   <a className="fa fa-twitter w3-hover-opacity icon"></a>
                   <a className="fa fa-linkedin w3-hover-opacity icon"></a>
                 </div>
+                <p>For more information, read our <Link to="/privacy_policy">Privacy Policy</Link>.</p>
                 <p className="selfLink">Developed by <a href="https://github.com/ShaneStallman" title="shane_stallman" target="_blank" className="selfLink"><i className="selfLink fa fa-github icon"></i>Shane Stallman</a></p>
+                
               </div>
             <div className="contactInfo">
               <a href={`mailto:${contactInfo.email}`} className="fa fa-envelope icon">&nbsp;{contactInfo.email}</a>

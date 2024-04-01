@@ -20,28 +20,28 @@ const [scrolled, setScrolled] = useState(false);
             <Nav className={scrolled ? 'scrolled' : ''}>
                 <NavMenu>
                     <NavSplit>
-                        <NavLink to="/home" activeStyle>
-                            <img src = "next life(logo_only).png" style = {{width: 80, height: 40}}/>&nbsp; Next Life Theatre Co.
+                        <NavLink to="/home" onClick={() => window.scrollTo(0, 0)} activeStyle>
+                            <img src = "next life(logo_only).png" alt = "logo" style = {{width: 80, height: 40}}/>&nbsp; Next Life Theatre Co.
                         </NavLink>
                     </NavSplit>
                     <NavSplit>
-                        <NavLink to="/home" activeStyle>
+                        <NavLink to="/home" onClick={() => window.scrollTo(0, 0)} activeStyle>
                          Home
                         </NavLink>
-                        <NavLink to="/about" activeStyle>
+                        <NavLink to="/about" onClick={() => window.scrollTo(0, 0)} activeStyle>
                          About
                         </NavLink>
-                        <NavLink to="/work" activeStyle>
+                        <NavLink to="/work" onClick={() => window.scrollTo(0, 0)} activeStyle>
                             <i className="fa fa-th icon"></i>&nbsp; Work
                         </NavLink>
-                        <NavLink to="/team" activeStyle>
+                        <NavLink to="/team" onClick={() => window.scrollTo(0, 0)} activeStyle>
                             <i className="fa fa-user icon"></i>&nbsp;Meet the Team
                         </NavLink>
                         
-                        <NavLink to="/join" activeStyle>
+                        <NavLink to="/join" onClick={() => window.scrollTo(0, 0)} activeStyle>
                             <i className="fa fa-users icon"></i>&nbsp; Join Us
                         </NavLink>
-                        <NavLink to="/support" activeStyle>
+                        <NavLink to="/support" onClick={() => window.scrollTo(0, 0)} activeStyle>
                             <i className="fa fa-usd icon"></i>&nbsp; Support
                         </NavLink>
                     </NavSplit>
