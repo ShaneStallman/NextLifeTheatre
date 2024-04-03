@@ -48,7 +48,7 @@ const Slideshow = () => {
           <div className="numbertext">
             {index + 1} / {pictureArray.length}
           </div>
-          <Link to="/home">
+          <Link to={picture.link} onClick={() => window.scrollTo(0, 0)}>
             <img className="slideImage" src={picture.src} alt={picture.alt} style={{ width: "100%" }} />
           </Link>
           <div className="text">{picture.caption}</div>

@@ -27,12 +27,16 @@
     .supportInfo{
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5vh;
     height: flex;
     width: flex;
     position: relative;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    }
+    .supportInfo p{
+        width: 80vw;
     }
     .tierHeader{
         display: flex;
@@ -51,6 +55,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-left: 6vw;
+        margin-right: 6vw;
     }
     .tierInfo{
         width: 35vw;

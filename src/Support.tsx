@@ -28,7 +28,8 @@ const footer = buildFooter();
                   <li>Administrative costs</li>
                 </ul>
                 <p>We accept donations of any amount, but we also offer benefits for tiered donations you can check out below!</p>
-                <h2 className="tierHeader">Tiered Donations</h2>
+                <iframe className="videoIntro" width="560" height="315" src="https://www.youtube.com/embed/P4FQmPHLGaE?si=cEDT50gmypd5aY-L" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                <h1 className="tierHeader">Tiered Donations</h1>
                 <div className="donationTiers">
                 <div className="top">
                   <a href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death/payments/new#/review">
@@ -78,12 +79,10 @@ const footer = buildFooter();
                 </div>
                 </div>
                 <div className="supportInfo">
-                <h3 className="followHeader supportInfoHeader">Other Ways You Can Help!</h3>
+                <h1 className="followHeader supportInfoHeader">Other Ways You Can Help!</h1>
                 <p>If you want to support this project but don't have the financial means: share this with others!
-
-We also appreciate any level of involvement that you are interested in as we are a fledgeling company. Please feel free to reach out to nextlifetheatre@gmail.com with interests, skills, resumes, or questions!
-
-Follow us on Instagram and Facebook @nextlifetheatreco</p>
+                We also appreciate any level of involvement that you are interested in as we are a fledgeling company. Please feel free to reach out to nextlifetheatre@gmail.com with interests, skills, resumes, or questions!
+                Follow us on Instagram and Facebook @nextlifetheatreco</p>
                 </div>
               </div>
             </div>

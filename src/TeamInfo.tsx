@@ -6,23 +6,32 @@ let jobList: jobPost[] = [];
 
 let pictureArray: picture[] = [];
 
-const Test: picture = {
+const Carmilla: picture = {
     src: "carmilla.png",
     alt: "Carmilla",
     caption: "Learn more about our upcoming show!",
     link: "/work"
 };
 
-pictureArray.push(Test);
+pictureArray.push(Carmilla);
 
-const Test2: picture = {
+const Merch: picture = {
     src: "VampireRoyalty.png",
     alt: "donations",
     caption: "Donate now to get exclusive swag!",
     link: "/support"
 };
 
-pictureArray.push(Test2);
+pictureArray.push(Merch);
+
+const Dancers: picture = {
+    src: "danceExample.png",
+    alt: "Dance",
+    caption: "Join our cast and crew!",
+    link: "/join" 
+};
+
+pictureArray.push(Dancers);
 
 const Brayden: teamMember = {
     name: "Brayden Stallman",
