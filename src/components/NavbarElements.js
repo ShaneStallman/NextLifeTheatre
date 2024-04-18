@@ -37,7 +37,7 @@ export const NavMenu = styled.div`
     /* Third Nav */
     width: 96.5vw;
     white-space: nowrap; */
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1023px) {
         display: none;
     }
 `;
