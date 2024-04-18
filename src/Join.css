@@ -120,7 +120,7 @@
               width: 90vw;
               position: relative;
               background-color: #120b1a;
-              /*overflow: hidden;*/ /* Ensure the border-radius applies correctly */
+              overflow: hidden;
               
             }
             .jobCard:hover{
@@ -139,7 +139,7 @@
               top: 0;
               left: 0;
               width: 90vw;
-              height: 120vh;
+              height: 140vh;
               display: flex;
               flex-direction: column;
               justify-content: center;

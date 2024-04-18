@@ -2,26 +2,16 @@
     background-color: #120b1a;
     height: flex;
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
     align-items: center;
     position: relative;
+    justify-content: center;
     width: 100vw;
   }
 
-  .address{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10vw;
-  }
-  .contactInfo{
-    display: flex;
-    flex-direction: column;
-    margin-right: 10vw;
-  }
   .middle{
     display: flex;
     flex-direction: column;
+    align-self: center;
     align-items: center;
   }
   .selfLink{
@@ -66,22 +56,10 @@
     background-color: #120b1a;
     height: flex;
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
+    justify-content: center;
     align-items: center;
     position: relative;
     width: 100vw;
-  }
-
-  .address{
-    display: flex;
-    flex-direction: column;
-    margin-left: 2vw;
-  }
-  .contactInfo{
-    display: flex;
-    flex-direction: column;
-    margin-right: 2vw;
   }
   .middle{
     display: flex;
