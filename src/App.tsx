@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../src/components/Footer.tsx";
+import Navbar from "../src/components/Navbar.js";
 import {
     BrowserRouter as Router,
     Routes,

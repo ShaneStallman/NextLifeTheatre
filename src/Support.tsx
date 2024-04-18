@@ -1,5 +1,4 @@
 import React from "react";
-import {pageNavigation} from "./types";
 import BuildFooter from "../src/components/Footer.tsx";
 import "./Support.css"
 

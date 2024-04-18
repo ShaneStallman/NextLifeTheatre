@@ -1,9 +1,9 @@
 
 import React, { useState } from "react";
 import BuildFooter from "../src/components/Footer.tsx";
-import Slideshow from "../src/components/Footer.tsx";
-import "/src/App.css";
-import "/src/About.css"
+import Slideshow from "../src/components/slideshow.tsx";
+import "./App.css";
+import "./About.css"
 
 const About = () => {
 
