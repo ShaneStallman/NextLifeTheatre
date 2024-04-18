@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NextLifeTheatre/static/css/main.ee43621e.css",
-    "main.js": "/NextLifeTheatre/static/js/main.bae3d199.js",
+    "main.js": "/NextLifeTheatre/static/js/main.7d0a36f6.js",
     "static/media/background_image_resized.png": "/NextLifeTheatre/static/media/background_image_resized.608a59c746d475c93362.png",
     "index.html": "/NextLifeTheatre/index.html",
     "main.ee43621e.css.map": "/NextLifeTheatre/static/css/main.ee43621e.css.map",
-    "main.bae3d199.js.map": "/NextLifeTheatre/static/js/main.bae3d199.js.map"
+    "main.7d0a36f6.js.map": "/NextLifeTheatre/static/js/main.7d0a36f6.js.map"
   },
   "entrypoints": [
     "static/css/main.ee43621e.css",
-    "static/js/main.bae3d199.js"
+    "static/js/main.7d0a36f6.js"
   ]
 }
