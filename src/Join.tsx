@@ -48,6 +48,7 @@ const buildDisplay = (jobArray) => {
 const Join = () => {
   return (
     <div>
+        <div></div>
         <div className="joinBlock" id="join">
           <h1 className="joinHeader">Want to Join our Team?</h1>
             <div className="joinDiv">
