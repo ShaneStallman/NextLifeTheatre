@@ -65,3 +65,73 @@
 .date{
     color: rgb(150,150,150);
 }
+
+@media screen and (max-width: 1000px){
+  .videoIntro{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 90vw;
+    height: 40vh;
+    border-color: black;
+}
+.carmillaContainer {
+    position: relative;
+    width: 90vw;
+    height: 40vh; 
+    background-color: rgb(20,20,20);
+  }
+  .carmillaName{
+    font-size: 75px;
+  }
+  .infoOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 1vw; /* Adjust padding as needed */
+    color: white; /* Text color */
+    z-index: 1; /* Ensure the overlay appears above the image */
+    font-size: 20px;
+  }
+.carmillaImg {
+    height: 40vh;
+    width: 90vw;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 65%, rgba(0,0,0,0));
+}
+.blackBackground{
+    height: 60vh;
+    width: 90vw;
+    background-color: rgb(20,20,20);
+}
+.workBlock{
+    min-height: 80vh;
+    width: 90vw;
+    position: relative;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+.workBlock h1{
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.workHeader{
+    margin-top: 10vh;
+    text-align: center;
+}
+.date{
+    color: rgb(150,150,150);
+}
+}

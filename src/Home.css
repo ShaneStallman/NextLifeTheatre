@@ -38,3 +38,46 @@
     display: flex;
     align-self: center;
 }
+@media screen and (max-width: 1000px) {
+    .homeBody{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 90vw;
+        align-items: center;
+        margin-top: 0vh;
+    }
+    .fa {
+        margin: 4px;
+    }
+    
+    .mainBody {
+        display: flex;
+        height: 200vh;
+    }
+    
+    .instagram {
+        display: flex !important;
+        width: 90vw !important;
+        align-self: center !important;
+        margin-left: 10vw !important;
+        margin-bottom: 5vh !important;
+    }
+    .instaHeader{
+        font-size: 40px;
+        margin: 5vh;
+    }
+    .supportLink{
+        font-size: 50px;
+        align-self: center;
+        margin-bottom: 5vh;
+    }
+    .MainImg{
+        margin-top: 5vh;
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        align-self: center;
+    }
+}
+  
