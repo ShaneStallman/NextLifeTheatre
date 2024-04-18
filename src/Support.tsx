@@ -1,6 +1,6 @@
 import React from "react";
 import {pageNavigation} from "./types";
-import BuildFooter from "./components/Footer.tsx";
+import BuildFooter from "../src/components/Footer.tsx";
 import "./Support.css"
 
 const Support = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import BuildFooter  from "./components/Footer.tsx";
+import BuildFooter  from "../src/components/Footer.tsx";
 import "./Join.css"
 import { jobList } from "./TeamInfo.tsx";
 

@@ -1,10 +1,9 @@
 
 import React, { useState } from "react";
-import {pageNavigation} from "./types";
-import BuildFooter from "./components/Footer.tsx";
-import Slideshow from "./components/slideshow.tsx";
-import "./App.css";
-import "./About.css"
+import BuildFooter from "../src/components/Footer.tsx";
+import Slideshow from "../src/components/Footer.tsx";
+import "/src/App.css";
+import "/src/About.css"
 
 const About = () => {
 
