@@ -8,12 +8,6 @@ const BuildFooter = () => {
     return (
     <footer className="pageFooter">
             {/* <a href="#home" className="w3-button w3-light-grey"><i className="fa fa-arrow-up w3-margin-right"></i>To the top</a>*/}
-            <div className="address">
-                <i className="mailingTitle"> Mailing Address</i>
-                <i>{contactInfo.mailing.name}</i>
-                <i>{contactInfo.mailing.address}</i>
-                <i>{contactInfo.mailing.city} &nbsp;{contactInfo.mailing.state}, &nbsp;{contactInfo.mailing.zip}</i>
-              </div>
               <div className="middle">
                 <a id="subscribe" href="https://forms.gle/3cy2oFT99chJfzCj7" className="newsletter">Join Our Mailing List!</a>
                 <div className="w3-xlarge w3-section socials">
@@ -30,7 +24,6 @@ const BuildFooter = () => {
               </div>
             <div className="contactInfo">
               <a href={`mailto:${contactInfo.email}`} className="fa fa-envelope icon">&nbsp;{contactInfo.email}</a>
-              <a href={`tel:${contactInfo.phone}`} className="fa fa-phone icon">&nbsp;{contactInfo.phone}</a>
             </div>
           </footer>
     )
