@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024) {
+
 .scrolled {
     background: linear-gradient(to right, #120b1a 0%, #120b1a 90%, rgb(204, 46, 191) 90%, rgb(204, 46, 191) 100%);
     box-shadow: 0px 2px 10px black;
@@ -8,11 +8,8 @@
     justify-self: right;
     width: fit-content;
   }
-}
 
-@media screen and (max-width: 1023) {
-  .scrolled{
+  .scrolledMobile{
       background: #120b1a;
       box-shadow: 0px 2px 10px black;
   }
-}

@@ -1,6 +1,7 @@
 import React from "react";
 import BuildFooter from "../src/components/Footer.tsx";
 import "./Support.css"
+import MediaQuery from "react-responsive";
 
 const Support = () => {
 
@@ -30,13 +31,14 @@ const Support = () => {
                 <iframe className="videoIntro" width="560" height="315" src="https://www.youtube.com/embed/P4FQmPHLGaE?si=cEDT50gmypd5aY-L" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                 <h1 className="tierHeader">Tiered Donations</h1>
                 <div className="donationTiers">
+                <MediaQuery minWidth={1024}>
                 <div className="top">
                   <a href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death/payments/new#/review">
                     <img className="tiers" alt="apprentice" src="Apprentice.png"/>
                   </a>
                 <div className="tierInfo">
                 <i className="tierLabel">Tier 1: 25$</i>
-                <ul>
+                <ul className="listText">
                   <li>A Commemorative "Electric Chapel" Nightclub Wristband</li>
                 </ul>
                 </div>
@@ -45,9 +47,9 @@ const Support = () => {
                   </a>
                 <div className="tierInfo">
                 <i className="tierLabel">Tier 3: 100$</i>
-                <ul>
+                <ul className="listText">
                   <li>A name on our lobby display</li>
-                  <li>A Commemorative "Electric Chapel" Nightclub Wristband, Shot Tube, and Carmilla Sticker</li>
+                  <li>A Commemorative "Electric Chapel" Nightclub Wristband, <br/>Shot Tube, and Carmilla Sticker</li>
                 </ul>
                 </div>
                 </div>
@@ -57,7 +59,7 @@ const Support = () => {
                 </a>
                 <div className="tierInfo">
                 <i className="tierLabel">Tier 2: 50$</i>
-                <ul>
+                <ul className="listText">
                   <li>A name on our lobby display</li>
                   <li>A Commemorative "Electric Chapel" Nightclub Wristband</li>
                 </ul>
@@ -67,14 +69,58 @@ const Support = () => {
                   </a>
                 <div className="tierInfo">
                 <i className="tierLabel">Tier 4: 250$</i>
-                <ul>
+                <ul className="listText">
                   <li>A name on our lobby display</li>
                   <li>Show Billing as an Honorary Producers</li>
                   <li>Invitation to Final Dress</li>
-                  <li>A Commemorative "Electric Chapel" Nightclub Wristband, Shot Tube, Carmilla Sticker and Carmilla T-Shirt</li>
+                  <li>A Commemorative "Electric Chapel" Nightclub Wristband, <br/>Shot Tube, Carmilla Sticker and Carmilla T-Shirt</li>
                 </ul>
                 </div>
                 </div>
+                </MediaQuery>
+                <MediaQuery maxWidth={1023}>
+                  <a href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death/payments/new#/review">
+                    <img className="tiers" alt="apprentice" src="Apprentice.png"/>
+                  </a>
+                <div className="tierInfo">
+                <i className="tierLabel">Tier 1: 25$</i>
+                <ul className="listText">
+                  <li>A Commemorative "Electric Chapel" Nightclub Wristband</li>
+                </ul>
+                </div>
+                <a href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death/payments/new#/review">
+                  <img className="tiers" alt="fledgling" src="Fledgling.png"/>
+                </a>
+                <div className="tierInfo">
+                <i className="tierLabel">Tier 2: 50$</i>
+                <ul className="listText">
+                  <li>A name on our lobby display</li>
+                  <li>A Commemorative "Electric Chapel" Nightclub Wristband</li>
+                </ul>
+                </div>
+                <a href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death/payments/new#/review">
+                    <img className="tiers" alt="vampire" src="Vampire.png"/>
+                  </a>
+                <div className="tierInfo">
+                <i className="tierLabel">Tier 3: 100$</i>
+                <ul className="listText">
+                  <li>A name on our lobby display</li>
+                  <li>A Commemorative "Electric Chapel" Nightclub Wristband, <br/>Shot Tube, and Carmilla Sticker</li>
+                </ul>
+                </div>
+                  <a href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death/payments/new#/review">
+                    <img className="tiers" alt="vampireRoyalty" src="VampireRoyalty.png"/>
+                  </a>
+                <div className="tierInfo">
+                <i className="tierLabel">Tier 4: 250$</i>
+                <ul className="listText">
+                  <li>A name on our lobby display</li>
+                  <li>Show Billing as an Honorary Producers</li>
+                  <li>Invitation to Final Dress</li>
+                  <li>A Commemorative "Electric Chapel" Nightclub Wristband, <br/>Shot Tube, Carmilla Sticker and Carmilla T-Shirt</li>
+                </ul>
+                </div>
+                </MediaQuery>
                 </div>
                 </div>
                 <div className="supportInfo">

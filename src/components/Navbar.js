@@ -54,7 +54,7 @@ const [scrolled, setScrolled] = useState(false);
 
             <MediaQuery maxWidth={1023}>
             
-            <Nav className={scrolled ? 'scrolled' : ''}>
+            <Nav className={scrolled ? 'scrolledMobile' : ''}>
                 <NavMenu>
                     <NavSplitMobile>
                         <NavLink to="/home" onClick={() => window.scrollTo(0, 0)} activeStyle>

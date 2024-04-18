@@ -92,3 +92,46 @@
     .supportInfo ul{
         width: 80vw;
     }
+
+    .listText{
+        flex: 1;
+        overflow: auto;
+    }
+
+    @media screen and (max-width: 1023px) {
+        .donationTiers{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 6vw;
+            margin-right: 6vw;
+        }
+        .tiers{
+            width: 90vw;
+            height: 35vh;
+            align-self: center;
+            display: flex;
+        }
+        .tiers:hover{
+            box-shadow: 0px 0px 12px rgb(196, 59, 196);
+        }
+        .tierInfo{
+            width: 90vw;
+            height: 25vh;
+            align-self: center;
+            justify-content: center;
+            background-color: black;
+            font-size: x-large;
+            margin-bottom: 4vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .tierLabel{
+            font-style: oblique;
+            font-size: 20px;
+            display: flex;
+            text-align: center;
+            justify-self: center;
+            align-self: center;
+        }
+    }
