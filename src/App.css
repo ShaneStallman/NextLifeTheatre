@@ -21,7 +21,8 @@
 :root {
   --banner-height: 64px;
   color: white;
-  background-image: url('../public/lines_back.jpg');
+  background-image: url('../public/background_image_resized.png');
+  background-size: cover;
   background-color: rgba(38, 38, 38, 1);
 }
 

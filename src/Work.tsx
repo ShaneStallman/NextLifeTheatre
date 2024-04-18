@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { buildFooter } from "./components/Footer.tsx";
+import BuildFooter from "./components/Footer.tsx";
 import { carmilla } from "./TeamInfo.tsx";
 import "./Work.css";
 
 const Work = () => {
-const footer = buildFooter();
+
   return (
     <div>
       <div className="workBlock" id="work">
@@ -34,7 +34,7 @@ const footer = buildFooter();
       <h1>Past Show Highlights</h1>
       <iframe className="videoIntro" width="560" height="315" src="https://www.youtube.com/embed/0LSCPasqHRA?si=oeMdlKlhuhTZTcxw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
       </div>
-       {footer}
+      <BuildFooter/>
         </div>  
   );
 } 

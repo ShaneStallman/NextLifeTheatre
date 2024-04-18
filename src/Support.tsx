@@ -1,10 +1,10 @@
 import React from "react";
 import {pageNavigation} from "./types";
-import { buildFooter } from "./components/Footer.tsx";
+import BuildFooter from "./components/Footer.tsx";
 import "./Support.css"
 
 const Support = () => {
-const footer = buildFooter();
+
   return (
     <div>
       <div className="supportBlock" id="support">
@@ -12,22 +12,22 @@ const footer = buildFooter();
               <div className="supportDiv">
                 <div className="supportInfo">
                 <h2 className="donateHeader supportInfoHeader"> Donate! </h2>
-                <i>Where?</i>
-                <a href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death#/">Donate on Indiegogo<br/></a>
+                <i className = "SupportText">Where?</i>
+                <a className = "SupportText" href="https://www.indiegogo.com/projects/carmilla-a-dance-with-death#/">Donate on Indiegogo<br/></a>
                 
-                <p>What will your donation provide?<br/>
+                <p className = "SupportText">What will your donation provide?<br/>
                 <br/>
                 Next Life Theatre is currently seeking $3,000 to help fund this project.
                   <br/>
                   Funds will contribute to the following:
                 </p>
-                <ul>
-                  <li>Venue and rehearsal space rental costs</li>
-                  <li>Limited production material for lights, sound, and costume pieces.</li>
-                  <li>Stipends for dancers and designers</li>
-                  <li>Administrative costs</li>
+                <ul className = "SupportText">
+                  <li >Venue and rehearsal space rental costs</li>
+                  <li >Limited production material for lights, sound, and costume pieces.</li>
+                  <li >Stipends for dancers and designers</li>
+                  <li >Administrative costs</li>
                 </ul>
-                <p>We accept donations of any amount, but we also offer benefits for tiered donations you can check out below!</p>
+                <p className = "SupportText">We accept donations of any amount, but we also offer benefits for tiered donations you can check out below!</p>
                 <iframe className="videoIntro" width="560" height="315" src="https://www.youtube.com/embed/P4FQmPHLGaE?si=cEDT50gmypd5aY-L" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                 <h1 className="tierHeader">Tiered Donations</h1>
                 <div className="donationTiers">
@@ -86,7 +86,7 @@ const footer = buildFooter();
                 </div>
               </div>
             </div>
-       {footer}
+            <BuildFooter/>
         </div>  
   );
 } 

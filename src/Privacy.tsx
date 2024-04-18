@@ -1,9 +1,9 @@
 import React from "react";
-import { buildFooter } from "./components/Footer.tsx";
+import BuildFooter  from "./components/Footer.tsx";
 import "./Privacy.css"
 
 const Policy = () => {
-const footer = buildFooter();
+
   return (
     <div className="page">
       <div className="spacer"></div>
@@ -44,7 +44,7 @@ const footer = buildFooter();
         at privacy@example.com.
       </p>
     </div>
-       {footer}
+      <BuildFooter/>
     </div>  
   );
 } 

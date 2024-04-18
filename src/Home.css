@@ -31,3 +31,10 @@
     align-self: center;
     margin-bottom: 5vh;
 }
+.MainImg{
+    margin-top: 5vh;
+    height: 95vh;
+    width: 78vw;
+    display: flex;
+    align-self: center;
+}

@@ -16,7 +16,7 @@
         position: relative;
         display: flex;
         justify-content: space-between;
-        flex-direction: row;
+        flex-direction: column;
     }
     .teamCard {
         border-radius: 20px;
@@ -71,6 +71,15 @@
       .cardName{
         margin-left: 1vw; 
         margin-right: 1vw;
+        
+        font-size: 24px;
+        font-weight: bolder;
+      }
+
+      .cardRole{
+        margin-left: 1vw; 
+        margin-right: 1vw;
+        margin-bottom: 0.5vw;
         font-size: 20px;
         font-weight: bolder;
       }
@@ -88,4 +97,19 @@
       }
       .joinHeader{
         font-size: 25px;
+      }
+      .cards{
+        display: flex;
+        flex-direction: row;
+      }
+      .h1{
+        display: flex;
+        align-self: center;
+        text-align: center;
+      }
+
+      .roleHeader{
+        display: flex;
+        align-self: center;
+        text-align: center;
       }

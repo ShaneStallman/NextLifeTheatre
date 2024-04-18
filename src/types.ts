@@ -7,11 +7,14 @@ export type teamMember = {
     headshot: string;
     bio: string;
     socials: string;
+    role: string;
+    roletype: string;
 };
 
 export type jobPost = {
   name: string;
   image: string;
+  roles: string[];
   description: string;
   form: string;
 };
