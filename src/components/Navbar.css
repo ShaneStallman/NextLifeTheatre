@@ -10,7 +10,7 @@
 
   @media screen and (max-width: 1023) {
     .scrolled {
-      background: linear-gradient(to right, #120b1a 0%, #120b1a 80%, rgb(204, 46, 191) 80%, rgb(204, 46, 191) 100%);
+      background: linear-gradient(to right, #120b1a 0%, #120b1a 60%, rgb(204, 46, 191) 60%, rgb(204, 46, 191) 100%);
       box-shadow: 0px 2px 10px black;
     }
   }
