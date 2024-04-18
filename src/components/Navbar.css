@@ -1,5 +1,5 @@
 .scrolled {
-    background: linear-gradient(to right, #120b1a 0%, #120b1a 90.5%, rgb(204, 46, 191) 90.5%, rgb(204, 46, 191) 100%);
+    background: linear-gradient(to right, #120b1a 0%, #120b1a 89.5%, rgb(204, 46, 191) 89.5%, rgb(204, 46, 191) 100%);
     box-shadow: 0px 2px 10px black;
   }
   .important{
@@ -8,9 +8,9 @@
     width: fit-content;
   }
 
-  @media screen and (max-width: 1023) {
-    .scrolled {
-      background: linear-gradient(to right, #120b1a 0%, #120b1a 60%, rgb(204, 46, 191) 60%, rgb(204, 46, 191) 100%);
+@media screen and (max-width: 1023) {
+  .scrolled{
+      background: #120b1a;
       box-shadow: 0px 2px 10px black;
-    }
   }
+}

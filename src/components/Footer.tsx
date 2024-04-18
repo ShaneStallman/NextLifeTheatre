@@ -14,10 +14,7 @@ const BuildFooter = () => {
                 <div className="w3-xlarge w3-section socials">
                   <a id="Facebook" href="https://www.facebook.com/profile.php?id=61557075519477" className="fa fa-facebook-official w3-hover-opacity icon"></a>
                   <a id="Instagram" href="https://www.instagram.com/nextlifetheatreco/" className="fa fa-instagram w3-hover-opacity icon"></a>
-                  <a className="fa fa-snapchat w3-hover-opacity icon"></a>
-                  <a className="fa fa-pinterest-p w3-hover-opacity icon"></a>
-                  <a className="fa fa-twitter w3-hover-opacity icon"></a>
-                  <a className="fa fa-linkedin w3-hover-opacity icon"></a>
+                  <a href="https://www.youtube.com/channel/UCBLLXrj-4E10mcXB3xnhsZA" className="fa fa-youtube-play w3-hover-opacity icon"></a>
                 </div>
                 <p>For more information, read our <Link to="/privacy_policy">Privacy Policy</Link>.</p>
                 <p className="selfLink">Developed by <a href="https://github.com/ShaneStallman" title="shane_stallman" target="_blank" className="selfLink"><i className="selfLink fa fa-github icon"></i>Shane Stallman</a></p>
