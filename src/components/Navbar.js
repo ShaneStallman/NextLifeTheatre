@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { Nav, NavLink, NavMenu, NavSplit } from "./NavbarElements.js";
 import "./Navbar.css";
+import MediaQuery from "react-responsive";
  
 const Navbar = () => {
 const [scrolled, setScrolled] = useState(false);
@@ -17,6 +18,8 @@ const [scrolled, setScrolled] = useState(false);
     }, []); 
     return (
         <>
+            <MediaQuery minWidth={1024}>
+            
             <Nav className={scrolled ? 'scrolled' : ''}>
                 <NavMenu>
                     <NavSplit>
@@ -47,6 +50,25 @@ const [scrolled, setScrolled] = useState(false);
                     </NavSplit>
                 </NavMenu>
             </Nav>
+            </MediaQuery>
+
+            <MediaQuery maxWidth={1023}>
+            
+            <Nav className={scrolled ? 'scrolled' : ''}>
+                <NavMenu>
+                    <NavSplit>
+                        <NavLink to="/home" onClick={() => window.scrollTo(0, 0)} activeStyle>
+                            <img src = "next life(logo_only).png" alt = "logo" style = {{width: 80, height: 40}}/> Next Life Theatre Co.
+                        </NavLink>
+                    </NavSplit>
+                    <NavSplit>
+                        <NavLink to="/about" onClick={() => window.scrollTo(0, 0)} activeStyle>
+                            <i className="fa fa-navicon"></i>
+                        </NavLink>
+                    </NavSplit>
+                </NavMenu>
+            </Nav>
+            </MediaQuery>
         </>
     );
 };
