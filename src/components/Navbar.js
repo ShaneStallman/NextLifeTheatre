@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import { Nav, NavLink, NavMenu, NavSplit } from "./NavbarElements.js";
+import { Nav, NavLink, NavMenu, NavSplit, NavSplitMobile } from "./NavbarElements.js";
 import "./Navbar.css";
 import MediaQuery from "react-responsive";
  
@@ -56,16 +56,16 @@ const [scrolled, setScrolled] = useState(false);
             
             <Nav className={scrolled ? 'scrolled' : ''}>
                 <NavMenu>
-                    <NavSplit>
+                    <NavSplitMobile>
                         <NavLink to="/home" onClick={() => window.scrollTo(0, 0)} activeStyle>
                             <img src = "next life(logo_only).png" alt = "logo" style = {{width: 80, height: 40}}/> Next Life Theatre Co.
                         </NavLink>
-                    </NavSplit>
-                    <NavSplit>
+                    </NavSplitMobile>
+                    <NavSplitMobile>
                         <NavLink to="/about" onClick={() => window.scrollTo(0, 0)} activeStyle>
                             <i className="fa fa-navicon"></i>
                         </NavLink>
-                    </NavSplit>
+                    </NavSplitMobile>
                 </NavMenu>
             </Nav>
             </MediaQuery>

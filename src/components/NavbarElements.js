@@ -55,3 +55,13 @@ export const NavSplit = styled.div`
         display: none;
     }
 `;
+
+export const NavSplitMobile = styled.div`
+    display: flex;
+    align-items: center;
+    /* Second Nav */
+    /* margin-right: 24px; */
+    /* Third Nav */
+    /* width: 100vw;
+    white-space: nowrap; */
+`;
