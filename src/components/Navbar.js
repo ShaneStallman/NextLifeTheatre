@@ -2,8 +2,11 @@ import React, {useState, useEffect} from "react";
 import { Nav, NavLink, NavMenu, NavSplit, NavSplitMobile } from "./NavbarElements.js";
 import "./Navbar.css";
 import MediaQuery from "react-responsive";
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/Dropdown';
  
 const Navbar = () => {
+
 const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -16,6 +19,7 @@ const [scrolled, setScrolled] = useState(false);
       window.removeEventListener('scroll', handleScroll);
     };
     }, []); 
+
     return (
         <>
             <MediaQuery minWidth={1024}>
@@ -62,9 +66,18 @@ const [scrolled, setScrolled] = useState(false);
                         </NavLink>
                     </NavSplitMobile>
                     <NavSplitMobile>
-                        <NavLink to="/about" onClick={() => window.scrollTo(0, 0)} activeStyle>
-                            <i className="fa fa-navicon"></i>
-                        </NavLink>
+      <Dropdown>
+      <Dropdown.Toggle variant="success" id="dropdown-basic" >
+        <i className="fa fa-navicon"></i>
+      </Dropdown.Toggle>
+      <Dropdown.Menu className="menu">
+        <Dropdown.Item  href="/home">Home</Dropdown.Item>
+        <Dropdown.Item  href="/work">Work</Dropdown.Item>
+        <Dropdown.Item  href="/about">About</Dropdown.Item>
+        <Dropdown.Item  href="/join">Join Us</Dropdown.Item>
+        <Dropdown.Item  href="/support">Support</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
                     </NavSplitMobile>
                 </NavMenu>
             </Nav>
