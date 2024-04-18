@@ -14,7 +14,7 @@
     "styled-components": "^6.1.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://ShaneStallman.github.io/NextLifeTheatre",
+  "homepage": "https://nextlifetheatre.com",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
