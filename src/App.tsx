@@ -16,7 +16,7 @@ import Policy from "./Privacy.tsx";
  
 function App() {
     return (
-        <Router>
+        <Router basename="/NextLifeTheatre">
             <Navbar />
             <Routes>
                 <Route path="/home" element={<Home />} />
