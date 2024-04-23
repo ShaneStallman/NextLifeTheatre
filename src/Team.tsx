@@ -20,7 +20,7 @@ const buildDisplay = (teamArray) => {
       col.push(
         <div key={index} className="teamCard" onClick={() => console.log(teamArray[index])}>
           <div className="cardImgContainer">
-            <img className="cardImg" src={teamArray[index].headshot} alt={teamArray[index].name}/>
+            <img className="cardImgTeam" src={teamArray[index].headshot} alt={teamArray[index].name}/>
             <div className="cardOverlay">
               <div className="cardName">{teamArray[index].name}</div>
               <div className="cardRole">{teamArray[index].role}</div>
