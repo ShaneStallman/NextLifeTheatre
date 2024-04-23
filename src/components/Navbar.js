@@ -67,13 +67,14 @@ const [scrolled, setScrolled] = useState(false);
                     </NavSplitMobile>
                     <NavSplitMobile>
       <Dropdown>
-      <Dropdown.Toggle variant="success" id="dropdown-basic" >
+      <Dropdown.Toggle className="toggleButton" variant="success" id="dropdown-basic" >
         <i className="fa fa-navicon"></i>
       </Dropdown.Toggle>
       <Dropdown.Menu className="menu">
         <Dropdown.Item  href="/home">Home</Dropdown.Item>
         <Dropdown.Item  href="/work">Work</Dropdown.Item>
         <Dropdown.Item  href="/about">About</Dropdown.Item>
+        <Dropdown.Item  href="/team">Team</Dropdown.Item>
         <Dropdown.Item  href="/join">Auditions</Dropdown.Item>
         <Dropdown.Item  href="/support">Support</Dropdown.Item>
       </Dropdown.Menu>
