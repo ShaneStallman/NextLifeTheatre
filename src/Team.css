@@ -217,7 +217,7 @@
             }
             .cards{
               display: flex;
-              flex-direction: row;
+              flex-direction: column;
             }
             .h1{
               display: flex;
