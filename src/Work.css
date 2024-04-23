@@ -100,7 +100,7 @@
   }
 .carmillaImg {
     height: 40vh;
-    width: 90vw;
+    width: 100vw;
     position: relative;
     overflow: hidden;
     display: block;
@@ -109,12 +109,12 @@
 }
 .blackBackground{
     height: 60vh;
-    width: 90vw;
+    width: 100vw;
     background-color: rgb(20,20,20);
 }
 .workBlock{
     min-height: 80vh;
-    width: 90vw;
+    width: 100vw;
     position: relative;
     display: flex;
     align-self: center;

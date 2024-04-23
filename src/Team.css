@@ -114,7 +114,7 @@
         text-align: center;
       }
 
-      @media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
         .teamBlock{
           min-height: 100vh;
           position: relative;
@@ -136,18 +136,18 @@
               flex-direction: column;
           }
           .teamCard {
-              border-radius: 20px;
-              margin-top: 10vh;
-              margin-bottom: 2vh;
-              margin-left: auto;
-              margin-right: auto;
-              height: 95vh;
-              width: 30vw;
-              position: relative;
-              background-color: #120b1a;
-              /*overflow: hidden;*/ /* Ensure the border-radius applies correctly */
-              box-shadow: 0px 0px 12px rgb(56, 7, 81);
-            }
+            border-radius: 20px;
+            margin-top: 10vh;
+            margin-bottom: 2vh;
+            margin-left: auto;
+            margin-right: auto;
+            height: 75vh;
+            width: 90vw;
+            position: relative;
+            background-color: #120b1a;
+            /* overflow: hidden; */
+            box-shadow: 0px 0px 12px rgb(56, 7, 81);
+        }
             
             .cardImgContainer {
               position: relative;
@@ -157,19 +157,20 @@
             }
             
             .cardOverlay {
-              position: absolute;
+              /* position: absolute; */
               top: 0;
               left: 0;
               width: 100%;
-              height: 145%;
+              height: 100%;
               display: flex;
               flex-direction: column;
               justify-content: center;
               align-items: center;
-              padding: 1vw; /* Adjust padding as needed */
-              color: white; /* Text color */
-              z-index: 1; /* Ensure the overlay appears above the image */
-            }
+              padding: 1vw;
+              color: white;
+              z-index: 1;
+              font-size: 18px;
+          }
             
             .cardOverlay a {
               color: lightblue; /* Link color */
