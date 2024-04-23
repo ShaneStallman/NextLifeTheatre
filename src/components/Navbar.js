@@ -46,7 +46,7 @@ const [scrolled, setScrolled] = useState(false);
                         </NavLink>
                         
                         <NavLink to="/join" onClick={() => window.scrollTo(0, 0)} activeStyle>
-                            <i className="fa fa-users icon"></i>&nbsp; Join Us
+                            <i className="fa fa-users icon"></i>&nbsp; Auditions
                         </NavLink>
                         <NavLink to="/support" onClick={() => window.scrollTo(0, 0)} activeStyle>
                             <i className="fa fa-usd icon"></i>&nbsp; Support
@@ -74,7 +74,7 @@ const [scrolled, setScrolled] = useState(false);
         <Dropdown.Item  href="/home">Home</Dropdown.Item>
         <Dropdown.Item  href="/work">Work</Dropdown.Item>
         <Dropdown.Item  href="/about">About</Dropdown.Item>
-        <Dropdown.Item  href="/join">Join Us</Dropdown.Item>
+        <Dropdown.Item  href="/join">Auditions</Dropdown.Item>
         <Dropdown.Item  href="/support">Support</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
