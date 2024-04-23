@@ -20,10 +20,12 @@
     background-color: #120b1a;
     justify-content: space-between;
     padding: 2vw;
-    width: 45vw;
-    height: 30vh;
-    font-size: 18px;;
-  }
+    width: 100vw;
+    height: 50vh;
+    font-size: 40px;
+    transform: translate3d(0px, 0px, 0px) !important;
+    inset: 7vh 0px !important;
+    }
 
   .fa-navicon{
     color: #120b1a;
